@@ -65,6 +65,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .profile-image{
@@ -98,4 +99,39 @@ li{
 
 li > img{
     padding-right: 16px;
+}
+
+/*My plans Section*/
+
+.title-plan{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container{
+    display: flex;
+    column-gap: 200px;
+    justify-content: center;
+}
+
+.plan-card h3, p{
+    text-align: center;
+}
+
+.plan-card h3{
+    margin-top: 24.5px;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-card p{
+    color:#737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+    .plan-card img {
+        display: block;
+        margin: 0 auto;
 }
