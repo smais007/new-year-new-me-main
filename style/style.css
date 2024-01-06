@@ -13,6 +13,10 @@ header{
     margin-bottom: 140px;
 }
 
+section{
+    margin: 0 230px;
+}
+
 .banner {
   background-image: url("../images/banner/banner1.png");
   background-size: cover;
@@ -114,11 +118,11 @@ li > img{
     justify-content: center;
 }
 
-.plan-card h3, p{
+.plan-card h4, p{
     text-align: center;
 }
 
-.plan-card h3{
+.plan-card h4{
     margin-top: 24.5px;
     color: #151414;
     font-size: 30px;
@@ -131,7 +135,40 @@ li > img{
     font-weight: 500;
 }
 
-    .plan-card img {
+.plan-card img {
         display: block;
         margin: 0 auto;
+}
+
+.call-now{
+    background-image: url('/images/gradient2.png'), url('/images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 130px;
+}
+
+.call-now h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 60px 0 0 65px;
+    margin-bottom: 24px;
+}
+
+.btn{
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.call-now button{
+    position: relative;
+    left: 65px;
+    
 }
